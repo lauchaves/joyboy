@@ -100,7 +100,8 @@ export const ProfileInfo: React.FC<ProfileInfoProps> = ({publicKey: userPublicKe
               >
                 {isConnected ? 'UnFollow' : 'Follow'}
               </Button>
-
+              
+              {/* In Progress - Lau Chaves */}
               <IconButton icon="DoubleMessageIcon" size={20} style={styles.iconButton} />
 
               <Menu
